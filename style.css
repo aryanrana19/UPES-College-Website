@@ -3,3 +3,32 @@ body{
     box-sizing: border-box;
 }
 
+.black-navbar{
+    height: 5vh;
+    background-color: #000;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.black-navbar a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.black-navbar a:hover{
+    opacity: 0.8;
+}
+
+.main-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.main-navbar img{
+    
+    margin-left: 50px;
+}
