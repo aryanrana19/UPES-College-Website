@@ -74,7 +74,7 @@ body{
     color: #fff;
     background-color: #373437;
     border: 1px solid #fff;
-    box-shadow: 0px 0px 0px #373437;
+    box-shadow: 5px 5px 10px #373437;
     transition: ease-out 0.3s;
 }
 
@@ -120,3 +120,43 @@ body{
     width: 550px;
 }
 
+.promotions{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 75vh;
+}
+ 
+.promotion-card{
+    height: 70vh;
+    background-color: #EFF1F4;
+    width: 400px;
+    text-align: left;
+    border-radius: 30px;
+}
+
+.promotion-card:hover{
+    box-shadow: 0px 20px 10px #c4c4c4;
+    transform: translateY(-5px);
+}
+
+.promotion-card hr {  
+    height: 2px;
+    margin: 0px 30px;
+    background-color: #000;  
+    border: none;  
+}  
+
+.promotion-card h1{
+    font-size: 50px;
+    width: 50%;
+    margin: 30px;
+    font-family: 'Teko', sans-serif;
+    font-weight: normal;
+}
+
+.promotion-card p{
+    font-size: 22px;
+    margin: 50px 30px;
+}
