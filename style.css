@@ -160,3 +160,25 @@ body{
     font-size: 22px;
     margin: 50px 30px;
 }
+
+/* FOOTER CSS */
+
+footer{
+    background-color: #EFF1F4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 50%; */
+}
+
+.foot-div-1{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin-left: 50px;
+}
+
+.admissions{
+    display: flex;
+
+}
